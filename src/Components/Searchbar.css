@@ -1,0 +1,43 @@
+.Background{
+    height: 100vh;
+    background-size: cover; /* Cover the entire container */
+    background-position: center;
+    background-image: url(https://static.ieplads.com/bmsjs/banners/99acres-hp/1366/1366-banner-1.jpg);
+}
+.Searchbarcont{
+    height: 140px;
+    width: 900px;
+    border: 2px black solid;
+    display: flex;
+    margin:290px; 
+    background-color: white;
+    /* justify-content: center;  */
+    /* align-items: center;  */
+    border-radius: 30px; 
+    
+}
+.Sbbg{
+    /* margin-top: 10px; */
+    /* height: 100vh;
+    background-size: cover; /* Cover the entire container */
+    /* background-position: center;
+    background-image: url(https://static.ieplads.com/bmsjs/banners/99acres-hp/1366/1366-banner-1.jpg); */ 
+}
+.sitems{
+    
+    justify-content: space-between;
+    text-decoration: none;
+    display: flex;
+    list-style-type: none;
+}
+.sitems li a {
+    margin-left: 50px;
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+  }
+  .sitems li a:hover{
+    color:rgb(18, 18, 41);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
